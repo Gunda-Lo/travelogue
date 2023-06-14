@@ -1,0 +1,41 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background-color: navy;
+  width: auto;
+  text-align: center;
+}
+header a {
+  color: #fff;
+  padding-left: 3%;
+}
+
+.top-image {
+    display: block;
+    width: 100%;
+}
+
+body {
+  background-color: rgb(219, 205, 205);
+  margin: auto;
+}
+h2 {
+  color: #0f0e0e;
+  text-align: center;
+}
+.container{
+
+}
+figure {
+  background-color: #fff;
+  float: left;
+  text-align: center;
+  width: 23%;
+  padding: 1px;
+  
+}
+figcaption {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}

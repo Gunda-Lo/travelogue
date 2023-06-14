@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <style>
+      * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      header {
+        background-color: navy;
+        width: auto;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 2%;
+      }
+      header a {
+        color: #fff;
+        padding-left: 3%;
+      }
+      
+      form{
+        margin: 0 auto;
+        width: 300px;
+        padding: 1em;
+        border: 1px solid;
+      }
+      label{
+        display: block;
+        margin-bottom: 1em;
+        margin-top: 1em;
+      }
+      h3{
+        text-align: center;
+      }
+      #submit{
+        background-color: rgb(173, 173, 244);
+        margin-top: 1em;
+        cursor: pointer;
+        transition-duration: 0.3s;
+      }
+    </style>
+    <header>
+      <a href="/index.html">TRIPS</a>
+      <a href="/assets/pages/about.html">ABOUT</a>
+      <a href="/assets/pages/contact.html">CONTACT</a>
+    </header>
+    <h3>Want to come on my next trip? Contact Me:</h3>
+
+    <form action="" method="get" class="contact">  
+        <div>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="number">Contact Number:</label>
+            <input type="number" name="number" id="phone" required>
+        </div>
+        <div>
+            <input type="button" value="SUBMIT" id="submit">
+        </div>
+    </form>
+  </body>
+</html>
